@@ -225,6 +225,17 @@ footer {
     height: 420px;
 }
 
+.contact h2,
+.contact > .large-text {
+    width: 474px;
+    margin: 0 auto 12px;
+    text-align: right;
+}
+
+.contact h2 {
+    white-space: nowrap;
+}
+
 /* form width: 150px labels + 24px gap + 300px inputs = 474px */
 .contact form {
     width: 474px;

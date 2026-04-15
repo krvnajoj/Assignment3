@@ -8,7 +8,7 @@ const contactPage = document.getElementById('contact-page');
 submitButton.addEventListener('click', function(event) {
     event.preventDefault();
     const message = document.createElement('p');
-    message.textContent = 'Thank you for your message';
+    message.textContent = 'Thank you for your message!';
     message.classList.add('large-text');
     contactPage.innerHTML = '';
     contactPage.appendChild(message);
